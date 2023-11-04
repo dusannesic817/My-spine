@@ -1,26 +1,30 @@
 body {
     font-family: 'Catamaran', sans-serif;
 }
-.service-icon {
-    width: 60px;
-    height: 60px;
-}
 .hero {
     background-color: #f7f7f7;
 }
 .service-box {
     border: 1px solid #ccc; 
-    padding: 20px;
-    margin-bottom: 15px;
-    background-color: #fff; 
-    border-radius: 5px; 
+    background-color: #e1e1e1; 
+    border-radius: 20px; 
     transition: transform 0.2s ease-in-out; 
     cursor: pointer; 
+    display: inline-flex; /* Added for centering content */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 60px;
+    height: 60px;
 }
-
 .service-box:hover {
     transform: scale(1.05); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #0076be;
+}
+
+/* This targets the <img> directly for the hover state of .service-box */
+.service-box:hover .service-icon {
+    filter: brightness(0) invert(1);
 }
 
 .service-icon {
@@ -28,6 +32,3 @@ body {
     height: auto;
     margin-bottom: 10px; 
 }
-
-
-
