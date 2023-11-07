@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 .service-icon {
     max-width: 60px;
 =======
+=======
+>>>>>>> dusan
 body {
     font-family: 'Catamaran', sans-serif;
 }
@@ -33,11 +36,15 @@ body {
     filter: brightness(0) invert(1);
 }
 
+
 .service-icon {
     width: 50px; 
     height: auto;
     margin-bottom: 10px; 
+<<<<<<< HEAD
 >>>>>>> 78a503493775f9f2126e323e13493a5a1a18bc35
+=======
+>>>>>>> dusan
 }
 
 .image_margin{
@@ -63,7 +70,42 @@ body {
 
 .dropdown-toggle:hover, .nav-link:hover{
     color:#0076be;
-   
+}
+hr {
+    height:3px;
+    background-color:black;
+    width: 95%;
+    margin-left: 2.5%;
 }
 
+.custom-padding {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.image-container img {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 130%; 
+    height: 100px;
+}
+
+hr {
+    height:3px;
+    background-color:black;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.custom-padding {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.image-container img {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 130%; 
+    height: 100px;
+}
 
